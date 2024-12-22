@@ -1,0 +1,30 @@
+# Environment files
+.env
+secrets/
+env_variables.txt
+
+# Logs and temporary files
+logs/
+*.log
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+airflow-env/
+
+# Airflow metadata
+airflow/airflow.db
+dags/__pycache__/
+
+# Python versioning
+.python-version
+
+# Docker-related
+*.pid
+*.tar
+docker-compose.override.yml
